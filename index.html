@@ -428,10 +428,44 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-subscription">
+          <h2 class="footer-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
+          <form action="" class="footer-form">
+            <label for="mail"></label>
+            <input
+              type="email"
+              name="mail"
+              placeholder="E-mail"
+              id="mail"
+              class="subscription-form"
+            />
+            <button type="submit" class="subscription-button">
+              Подписаться
+              <svg class="icon-send" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <b>Оставьте свои данные, мы вам перезвоним</b>
+        <form action="">
+          <label for="">Имя</label>
+          <input type="text" />
+
+          <label for="">Телефон</label>
+          <input type="text" />
+
+          <label for="">Почта</label>
+          <input type="text" />
+
+          <label for="">Коментарий</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </form>
         <button class="button-modal-close" data-modal-close>
           <svg class="modal-close-icon" width="18px" height="18px">
             <use href="./images/icons.svg#icon-close"></use>
